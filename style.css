@@ -1,0 +1,53 @@
+/* 
+App Name: Dynamic Quotes;
+Author : Md Abu Raihan
+Facebook: https://www.facebook.com/raihan.mahmudi.50/
+API: https://api.quotable.io/random
+*/
+
+body {
+  overflow-x: hidden;
+  background-color: blanchedalmond;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.info {
+  width: 1250px;
+  min-height: 256px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 24px;
+  border: 2px solid black;
+}
+
+blockquote {
+  color: #000;
+}
+
+.info blockquote {
+  font-size: 3rem;
+  line-height: 1.5em;
+  text-align: center;
+
+
+}
+
+.info .author {
+  padding: 40px 40px;
+  color: #000;
+  text-align: center;
+}
+
+.info .author::before {
+  content: "-- ";
+}
+
+[v-cloak] {
+  display: none
+}
